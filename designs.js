@@ -13,3 +13,7 @@ let table = document.getElementById("pixelCanvas");
 // Select height input
 
 let column = document.getElementById("inputHeight"); // Row variable
+
+// Select width input
+
+let cells = document.getElementById("inputWidth"); // Cell variable
