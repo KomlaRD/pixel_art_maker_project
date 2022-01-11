@@ -44,3 +44,11 @@ function makeGrid() {
         }
     }
 }
+
+// Reset table function
+
+function resetGrid() {
+    while (table.firstChild) {
+        table.removeChild(table.firstChild);
+    }
+}
