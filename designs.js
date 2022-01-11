@@ -17,3 +17,12 @@ let column = document.getElementById("inputHeight"); // Row variable
 // Select width input
 
 let cells = document.getElementById("inputWidth"); // Cell variable
+
+// When size is submitted by the user, call makeGrid()
+
+// Add submit event to make grid when form is submitted
+sizeGrid.addEventListener("submit", function(event) {
+    event.preventDefault();
+    resetGrid();
+    makeGrid();
+});
