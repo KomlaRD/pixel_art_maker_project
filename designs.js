@@ -52,3 +52,9 @@ function resetGrid() {
         table.removeChild(table.firstChild);
     }
 }
+
+// Color cells functions
+
+function colorCells() {
+    this.setAttribute("style", "background-color: " + colorChoice.value);
+}
